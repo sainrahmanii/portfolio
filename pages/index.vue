@@ -1,5 +1,8 @@
 <template>
-  <Tutorial />
+  <div>
+    <Hero />
+    <AboutMe />
+  </div>
 </template>
 
 <script>
