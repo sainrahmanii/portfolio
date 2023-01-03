@@ -246,7 +246,7 @@
                     <div class="text-justify">
                       <div class="collapse">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                        <h1 class="font-semibold collapse-title overflow-x-scroll">
                           STIKOM CKI JAKARTA ● 2021 - Present
                         </h1>
                         <div class="flex items-center collapse-content -mt-5">
@@ -255,7 +255,7 @@
                       </div>
                       <div class="collapse -mt-7">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                        <h1 class="font-semibold collapse-title overflow-x-scroll">
                           MA'HAD DAARUT TAUHID ● 2014 - 2020
                         </h1>
                         <div class="flex items-center collapse-content -mt-5">
