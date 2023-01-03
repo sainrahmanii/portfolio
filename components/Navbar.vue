@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 lg:px-36 navbar-fixed"
+      class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10 lg:px-36 backdrop-blur-md"
     >
       <div class="container">
         <div class="flex items-center justify-between relative">
@@ -49,7 +49,7 @@
             </button>
             <nav
               id="nav-menu"
-              class="absolute py-5 bg-white shadow-lg rounded-lg max-w-[360px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              class="absolute py-5 bg-white shadow-lg rounded-lg md:pl-5 w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
               :class="{ hidden: mobileMenu }"
             >
               <ul class="block lg:flex">
@@ -98,11 +98,6 @@
 </template>
 
 <style scoped>
-.navbar-fixed {
-  @apply fixed z-[9999] bg-white bg-opacity-70;
-  backdrop-filter: blur(5px);
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-}
 </style>
 
 <script setup>

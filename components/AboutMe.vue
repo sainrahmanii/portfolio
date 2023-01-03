@@ -14,10 +14,10 @@
           <img
             src="../assets/images/husain.png"
             alt="husain rahmani"
-            class="lg:max-w-full w-2/3 lg:mx-0 mx-auto"
+            class="lg:max-w-full w-2/3 mx-auto"
           />
         </div>
-        <div class="w-full lg:w-1/2">
+        <div class="w-full items-center lg:w-1/2">
           <div class="rounded-lg shadow-xl">
             <div class="py-3">
               <h1 class="text-center text-3xl">About Me</h1>
