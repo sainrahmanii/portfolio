@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.png' }, { rel:'stylesheet', href: 'https://unpkg.com/aos@next/dist/aos.css' },
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://img.icons8.com/fluency/48/null/hard-working.png' }, { rel:'stylesheet', href: 'https://unpkg.com/aos@next/dist/aos.css' },
     { href:"https://cdn.jsdelivr.net/npm/daisyui@2.46.1/dist/full.css", rel:"stylesheet", type:"text/css" },
 
     ],

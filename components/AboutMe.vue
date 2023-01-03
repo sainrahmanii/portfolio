@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-36 md:pt-16">
+  <section class="pt-36 md:pt-16" id="about">
     <div class="container lg:px-36">
       <div class="flex flex-wrap items-center my-12">
         <div
@@ -12,7 +12,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/husain.png"
+            src="../assets/images/foto.png"
             alt="husain rahmani"
             class="lg:max-w-full w-64 mx-auto lg:mx-3"
           />
@@ -92,7 +92,7 @@
                         >
                           FUNDAMENTAL
                         </div>
-                        <div class="flex items-center collapse-content -mt-3 overflow-x-scroll">
+                        <div class="flex items-center collapse-content -mt-3">
                           <div class="flex items-center mr-5">
                             <img
                               src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-tritone-tal-revivo.png"
@@ -189,7 +189,7 @@
                       </div>
                       <div class="collapse -mt-7">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title overflow-x-scroll">
+                        <h1 class="font-semibold collapse-title">
                           VCS (Version Control System)
                         </h1>
                         <div class="flex items-center collapse-content -mt-3">
@@ -246,7 +246,7 @@
                     <div class="text-justify">
                       <div class="collapse">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title overflow-x-scroll">
+                        <h1 class="font-semibold collapse-title">
                           STIKOM CKI JAKARTA ● 2021 - Present
                         </h1>
                         <div class="flex items-center collapse-content -mt-5">
@@ -255,7 +255,7 @@
                       </div>
                       <div class="collapse -mt-7">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title overflow-x-scroll">
+                        <h1 class="font-semibold collapse-title">
                           MA'HAD DAARUT TAUHID ● 2014 - 2020
                         </h1>
                         <div class="flex items-center collapse-content -mt-5">
