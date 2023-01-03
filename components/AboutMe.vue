@@ -92,7 +92,7 @@
                         >
                           FUNDAMENTAL
                         </div>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div class="flex items-center collapse-content -mt-3 overflow-x-scroll">
                           <div class="flex items-center mr-5">
                             <img
                               src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-tritone-tal-revivo.png"
@@ -111,7 +111,7 @@
                               src="https://img.icons8.com/fluency/32/null/javascript.png"
                               class="mr-2"
                             />
-                            <p class="overflow-scroll">JavaScript</p>
+                            <p>JavaScript</p>
                           </div>
                         </div>
                       </div>
@@ -189,7 +189,7 @@
                       </div>
                       <div class="collapse -mt-7">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title overflow-scroll">
+                        <h1 class="font-semibold collapse-title overflow-x-scroll">
                           VCS (Version Control System)
                         </h1>
                         <div class="flex items-center collapse-content -mt-3">
