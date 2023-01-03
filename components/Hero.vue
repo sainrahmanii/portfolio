@@ -55,6 +55,7 @@
 </template>
 
 <script setup>
-import AOS from 'aos'
-AOS.init()
+    import AOS from 'aos'
+
+    AOS.init();
 </script>
