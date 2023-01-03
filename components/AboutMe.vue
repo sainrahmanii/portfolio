@@ -111,7 +111,7 @@
                               src="https://img.icons8.com/fluency/32/null/javascript.png"
                               class="mr-2"
                             />
-                            <p>JavaScript</p>
+                            <p class="overflow-scroll">JavaScript</p>
                           </div>
                         </div>
                       </div>
@@ -189,7 +189,7 @@
                       </div>
                       <div class="collapse -mt-7">
                         <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                        <h1 class="font-semibold collapse-title overflow-scroll">
                           VCS (Version Control System)
                         </h1>
                         <div class="flex items-center collapse-content -mt-3">
@@ -202,7 +202,7 @@
                           </div>
                           <div class="flex items-center mr-5">
                             <img
-                              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                               class="mr-2 w-10"
                             />
                             <p>Github</p>
