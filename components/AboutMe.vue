@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-36">
+  <section class="pt-36 md:pt-16">
     <div class="container lg:px-36">
       <div class="flex flex-wrap items-center my-12">
         <div
