@@ -8,7 +8,7 @@
             data-aos-delay="50"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            data-aos-mirror="false"
             data-aos-once="false"
           >
             <h1 class="text-3xl lg:text-4xl font-medium">
@@ -40,7 +40,7 @@
             data-aos-delay="50"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            data-aos-mirror="false"
             data-aos-once="false"
           >
             <img

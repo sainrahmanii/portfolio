@@ -8,7 +8,7 @@
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
+          data-aos-mirror="false"
           data-aos-once="false"
         >
           <img
@@ -28,7 +28,7 @@
                   data-aos-delay="50"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
+                  data-aos-mirror="false"
                   data-aos-once="false"
                 >
                   <input type="checkbox" />
@@ -59,7 +59,7 @@
                   data-aos-delay="100"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
+                  data-aos-mirror="false"
                   data-aos-once="false"
                 >
                   <input type="checkbox" />
@@ -218,7 +218,7 @@
                   data-aos-delay="150"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
+                  data-aos-mirror="false"
                   data-aos-once="false"
                 >
                   <input type="checkbox" />
