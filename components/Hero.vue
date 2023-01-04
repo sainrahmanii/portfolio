@@ -27,7 +27,7 @@
               <br />Freelance Web Developer & UI Designer
             </p>
             <a
-              href="/cv/cv.pdf" download=""
+              href="/cv/cv.pdf" download="cv_husainrahmani"
               class="px-12 py-2 font-medium text-white transition duration-300 ease-in-out rounded-full cursor-pointer bg-cyan-500 hover:bg-cyan-400"
             >
               Download CV
@@ -55,12 +55,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import AOS from 'aos'
-
-export default {
-
-}
 
 AOS.init()
 </script>

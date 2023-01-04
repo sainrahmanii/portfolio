@@ -1,14 +1,14 @@
 <template>
   <div>
     <header
-      class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10 lg:px-36 backdrop-blur-md"
+      class="fixed top-0 left-0 z-10 flex items-center w-full bg-transparent lg:px-36 backdrop-blur-md"
     >
       <div class="container">
-        <div class="flex items-center justify-between relative">
+        <div class="relative flex items-center justify-between">
           <div class="px-4">
             <router-link
               to="/"
-              class="font-bold text-lg text-cyan-500 py-6 flex items-center"
+              class="flex items-center py-6 text-lg font-bold text-cyan-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
           <div class="flex items-center px-4">
             <button
               @click="mobileMenu = !mobileMenu"
-              class="block absolute right-4 lg:hidden"
+              class="absolute block right-4 lg:hidden"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,43 +49,60 @@
             </button>
             <nav
               id="nav-menu"
-              class="absolute py-5 bg-white shadow-lg rounded-lg md:pl-5 w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              class="absolute w-full py-5 bg-white rounded-lg shadow-lg md:pl-5 right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
               :class="{ hidden: mobileMenu }"
             >
               <ul class="block lg:flex">
                 <li class="group">
                   <a
                     href="#home"
-                    class="text-base text-slate-700 font-medium py-2 mx-8 group-hover:text-gray-700 flex"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
                     >Home</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#about"
-                    class="text-base text-slate-700 font-medium py-2 mx-8 group-hover:text-gray-700 flex"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
                     >About</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#portfolio"
-                    class="text-base text-slate-700 font-medium py-2 mx-8 group-hover:text-gray-700 flex"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
                     >Portfolio</a
                   >
                 </li>
                 <li class="group">
                   <a
+                    href="#certificate"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
+                    >Certificate</a
+                  >
+                </li>
+                <li class="group">
+                  <a
                     href="#clients"
-                    class="text-base text-slate-700 font-medium py-2 mx-8 group-hover:text-gray-700 flex"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
                     >Client</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#contact"
-                    class="text-base text-slate-700 font-medium py-2 mx-8 group-hover:text-gray-700 flex"
+                    class="flex py-2 mx-4 text-base font-medium text-slate-700 group-hover:text-gray-400"
                     >Contact</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="https://github.com/sainrahmanii"
+                    target="_blank"
+                    class="flex py-2 mx-4 text-base"
+                    >
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" class="w-6">
+                    </a
                   >
                 </li>
               </ul>

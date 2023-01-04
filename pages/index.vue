@@ -3,6 +3,7 @@
     <Navbar />
     <Hero />
     <AboutMe />
+    <Portfolio />
     <Footer />
   </div>
 </template>
