@@ -15,7 +15,7 @@
           <img
             src="../assets/images/Bootcamp.png"
             alt=""
-            class="border rounded-md hover:blur-sm"
+            class="border rounded-md"
           />
         </div>
         <div
