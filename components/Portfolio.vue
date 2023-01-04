@@ -14,7 +14,7 @@
         >
           <img
             src="../assets/images/Bootcamp.png"
-            alt=""
+            alt="bootcamp"
             class="border rounded-md"
           />
         </div>
@@ -29,7 +29,7 @@
         >
           <img
             src="../assets/images/zullkit.png"
-            alt=""
+            alt="zullkit"
             class="border rounded-md"
           />
         </div>
@@ -46,7 +46,7 @@
         >
           <img
             src="../assets/images/marketplace.png"
-            alt=""
+            alt="zullkit"
             class="border rounded-md"
           />
         </div>
@@ -61,7 +61,7 @@
         >
           <img
             src="../assets/images/powerhuman.png"
-            alt=""
+            alt="powerhuman"
             class="border rounded-md"
           />
         </div>
@@ -76,7 +76,7 @@
         >
           <img
             src="../assets/images/carent.png"
-            alt=""
+            alt="carent"
             class="border rounded-md"
           />
         </div>
@@ -93,7 +93,7 @@
         >
           <img
             src="../assets/images/Rental.png"
-            alt=""
+            alt="rental"
             class="border rounded-md"
           />
         </div>
@@ -108,7 +108,7 @@
         >
           <img
             src="../assets/images/Portfolio.png"
-            alt=""
+            alt="portfolio.v1"
             class="border rounded-md"
           />
         </div>
@@ -123,7 +123,7 @@
         >
           <img
             src="../assets/images/portfoliov2.png"
-            alt=""
+            alt="portfolio.v2"
             class="border rounded-md"
           />
         </div>
@@ -138,7 +138,7 @@
         >
           <img
             src="../assets/images/Jersey.png"
-            alt=""
+            alt="jersey"
             class="border rounded-md"
           />
         </div>
