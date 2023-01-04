@@ -27,10 +27,11 @@
               <br />Freelance Web Developer & UI Designer
             </p>
             <a
-              href="../assets/cv/cv.pdf" download
+              href="/cv/cv.pdf" download=""
               class="px-12 py-2 font-medium text-white transition duration-300 ease-in-out rounded-full cursor-pointer bg-cyan-500 hover:bg-cyan-400"
-              >Download CV</a
             >
+              Download CV
+            </a>
           </div>
         </div>
         <div class="w-full px-4 lg:w-1/2">
@@ -54,8 +55,12 @@
   </section>
 </template>
 
-<script setup>
-    import AOS from 'aos'
+<script>
+import AOS from 'aos'
 
-    AOS.init();
+export default {
+
+}
+
+AOS.init()
 </script>
