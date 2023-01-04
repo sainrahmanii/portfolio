@@ -2,7 +2,7 @@
   <section class="pt-36" id="home">
     <div class="container lg:px-36">
       <div class="flex flex-wrap">
-        <div class="w-full self-center px-4 lg:w-1/2">
+        <div class="self-center w-full px-4 lg:w-1/2">
           <div
             data-aos="fade-right"
             data-aos-delay="50"
@@ -11,24 +11,24 @@
             data-aos-mirror="false"
             data-aos-once="false"
           >
-            <h1 class="text-3xl lg:text-4xl font-medium">
-              Halo 👋,<span class="font-semibold block mt-1"
+            <h1 class="text-3xl font-medium lg:text-4xl">
+              Halo 👋,<span class="block mt-1 font-semibold"
                 >I Am Husain Rahmani</span
               >
             </h1>
-            <h2 class="text-lg lg:text-xl mt-1 font-medium">
+            <h2 class="mt-1 text-lg font-medium lg:text-xl">
               Web Developer <span class="mx-1">|</span> UI Designer
             </h2>
             <p class="my-5 font-medium">
               Student at
-              <span class="text-cyan-500 font-medium"
+              <span class="font-medium text-cyan-500"
                 >Islamic Development Network Bogor</span
               >
               <br />Freelance Web Developer & UI Designer
             </p>
             <a
-              href="#"
-              class="py-2 px-12 rounded-full bg-cyan-500 hover:bg-cyan-400 transition duration-300 ease-in-out text-white font-medium"
+              href="../assets/cv/cv.pdf" download
+              class="px-12 py-2 font-medium text-white transition duration-300 ease-in-out rounded-full cursor-pointer bg-cyan-500 hover:bg-cyan-400"
               >Download CV</a
             >
           </div>
