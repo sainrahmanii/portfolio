@@ -23,7 +23,7 @@
               <h1 class="text-center text-3xl font-bold">About Me</h1>
               <div class="mt-2">
                 <div
-                  class="collapse"
+                  class="px-3"
                   data-aos="fade-up"
                   data-aos-delay="50"
                   data-aos-duration="1000"
@@ -31,8 +31,14 @@
                   data-aos-mirror="false"
                   data-aos-once="false"
                 >
-                  <input type="checkbox" />
-                  <div class="flex items-center collapse-title">
+                  <div
+                    class="flex items-center"
+                    data-bs-toggle="collapse"
+                    href="#collapseExample"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -46,15 +52,18 @@
 
                     <h1 class="pl-5 text-xl font-semibold">Experience</h1>
                   </div>
-                  <div class="flex collapse-content font-medium">
-                    <p class="pl-2 text-justify">
+                  <div
+                    class="collapse font-medium transition duration-150 ease-in-out"
+                    id="collapseExample"
+                  >
+                    <p class="text-justify pl-11">
                       1+ years career as web developer, have good skills in web
                       development
                     </p>
                   </div>
                 </div>
                 <div
-                  class="collapse -mt-3"
+                  class="px-3 mt-2"
                   data-aos="fade-up"
                   data-aos-delay="100"
                   data-aos-duration="1000"
@@ -62,8 +71,14 @@
                   data-aos-mirror="false"
                   data-aos-once="false"
                 >
-                  <input type="checkbox" />
-                  <div class="flex items-center collapse-title">
+                  <div
+                    class="flex items-center"
+                    data-bs-toggle="collapse"
+                    href="#skills"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -83,16 +98,23 @@
 
                     <h1 class="pl-5 text-xl font-semibold">Skills</h1>
                   </div>
-                  <div class="flex collapse-content font-medium -mt-3">
+                  <div class="flex font-medium collapse" id="skills">
                     <div class="text-justify">
-                      <div class="collapse">
-                        <input type="checkbox" />
-                        <div
-                          class="font-semibold collapse-title flex items-center"
-                        >
+                      <div
+                        class="pl-11"
+                        data-bs-toggle="collapse"
+                        href="#fundamental"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"
+                      >
+                        <div class="font-semibold flex items-center">
                           FUNDAMENTAL
                         </div>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div
+                          class="flex items-center collapse mt-2"
+                          id="fundamental"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-tritone-tal-revivo.png"
@@ -115,12 +137,21 @@
                           </div>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="text-justify">
+                        <h1
+                          class="font-semibold pl-11"
+                          data-bs-toggle="collapse"
+                          href="#frameworkcss"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           FRAMEWORK CSS
                         </h1>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div
+                          class="flex items-center collapse mt-2 pl-11"
+                          id="frameworkcss"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
@@ -137,12 +168,21 @@
                           </div>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="text-justify">
+                        <h1
+                          class="font-semibold pl-11"
+                          data-bs-toggle="collapse"
+                          href="#frameworkfrontend"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           FRAMEWORK FRONTEND
                         </h1>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div
+                          class="flex items-center collapse mt-2 pl-11"
+                          id="frameworkfrontend"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://docs.vuejs.id/images/logo.png"
@@ -159,12 +199,21 @@
                           </div>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="text-justify">
+                        <h1
+                          class="font-semibold pl-11"
+                          data-bs-toggle="collapse"
+                          href="#frameworkbackend"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           FRAMEWORK BACKEND
                         </h1>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div
+                          class="flex items-center collapse mt-2 pl-11"
+                          id="frameworkbackend"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
@@ -174,10 +223,18 @@
                           </div>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">DATABASE</h1>
-                        <div class="flex items-center collapse-content -mt-3">
+                      <div class="text-justify">
+                        <h1
+                          class="font-semibold pl-11"
+                          data-bs-toggle="collapse"
+                          href="#database"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
+                          DATABASE
+                        </h1>
+                        <div class="flex items-center collapse mt-2 pl-11" id="database">
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png"
@@ -187,12 +244,18 @@
                           </div>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="text-justify">
+                        <h1
+                          class="font-semibold pl-11"
+                          data-bs-toggle="collapse"
+                          href="#vcs"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           VCS (Version Control System)
                         </h1>
-                        <div class="flex items-center collapse-content -mt-3">
+                        <div class="flex items-center collapse pl-11 mt-2" id="vcs">
                           <div class="flex items-center mr-5">
                             <img
                               src="https://avatars.githubusercontent.com/u/18133?s=200&v=4"
@@ -213,7 +276,7 @@
                   </div>
                 </div>
                 <div
-                  class="collapse -mt-3"
+                  class="px-3 mt-2"
                   data-aos="fade-up"
                   data-aos-delay="150"
                   data-aos-duration="1000"
@@ -221,8 +284,14 @@
                   data-aos-mirror="false"
                   data-aos-once="false"
                 >
-                  <input type="checkbox" />
-                  <div class="flex items-center collapse-title">
+                  <div
+                    class="flex items-center"
+                    data-bs-toggle="collapse"
+                    href="#education"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -242,23 +311,35 @@
 
                     <h1 class="pl-5 text-xl font-semibold">Education</h1>
                   </div>
-                  <div class="flex collapse-content font-medium -mt-3">
+                  <div class="flex font-medium collapse mt-2 pl-11" id="education">
                     <div class="text-justify">
-                      <div class="collapse">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="">
+                        <h1
+                          class="font-semibold"
+                          data-bs-toggle="collapse"
+                          href="#stikom"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           STIKOM CKI JAKARTA ● 2021 - Present
                         </h1>
-                        <div class="flex items-center collapse-content -mt-5">
+                        <div class="flex items-center" id="stikom">
                           <p>Semester 3</p>
                         </div>
                       </div>
-                      <div class="collapse -mt-7">
-                        <input type="checkbox" />
-                        <h1 class="font-semibold collapse-title">
+                      <div class="">
+                        <h1
+                          class="font-semibold"
+                          data-bs-toggle="collapse"
+                          href="#mdt"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
                           MA'HAD DAARUT TAUHID ● 2014 - 2020
                         </h1>
-                        <div class="flex items-center collapse-content -mt-5">
+                        <div class="flex items-center collapse" id="mdt">
                           <p>Graduted</p>
                         </div>
                       </div>

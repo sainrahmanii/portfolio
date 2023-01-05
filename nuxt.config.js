@@ -14,21 +14,24 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://img.icons8.com/fluency/48/null/hard-working.png' }, { rel:'stylesheet', href: 'https://unpkg.com/aos@next/dist/aos.css' },
-    { href:"https://cdn.jsdelivr.net/npm/daisyui@2.46.1/dist/full.css", rel:"stylesheet", type:"text/css" },
-
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'https://img.icons8.com/fluency/48/null/hard-working.png',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/aos@next/dist/aos.css'
+      }
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/css/main.css',
-  ],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
