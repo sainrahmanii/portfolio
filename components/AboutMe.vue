@@ -324,7 +324,7 @@
                         >
                           STIKOM CKI JAKARTA ● 2021 - Present
                         </h1>
-                        <div class="flex items-center" id="stikom">
+                        <div class="flex items-center collapse" id="stikom">
                           <p>Semester 3</p>
                         </div>
                       </div>

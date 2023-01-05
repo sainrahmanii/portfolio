@@ -2,7 +2,7 @@
   <section id="certificate">
     <div class="container lg:px-36">
       <div
-        class="shadow-xl rounded-md p-7 mb-32"
+        class="shadow-xl rounded-md p-7 lg:mb-32 mb-20"
         data-aos="fade-up"
         data-aos-delay="75"
         data-aos-duration="1000"

@@ -1,6 +1,6 @@
 <template>
   <section id="portfolio">
-    <div class="container my-32 lg:px-36">
+    <div class="container lg:my-32 my-20 lg:px-36">
       <h2 class="text-3xl font-bold text-center">Portfolio</h2>
       <div class="grid grid-cols-1 gap-2 mt-12 lg:grid-cols-2">
         <div
@@ -46,7 +46,7 @@
         >
           <img
             src="~/assets/images/Marketplace.png"
-            alt="zullkit"
+            alt="marketplace"
             class="border rounded-md"
           />
         </div>
