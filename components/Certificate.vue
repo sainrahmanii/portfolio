@@ -19,21 +19,21 @@
           <div class="relative w-full overflow-hidden carousel-inner">
             <div class="w-full carousel-item active">
               <img
-                src="../assets/images/nuxtjs.png"
+                src="~/assets/images/nuxtjs.png"
                 class="block w-2/3 mx-auto rounded-lg"
                 alt="nuxt.js"
               />
             </div>
             <div class="w-full carousel-item">
               <img
-                src="../assets/images/vuejs.png"
+                src="~/assets/images/vuejs.png"
                 class="block w-2/3 mx-auto rounded-lg"
                 alt="vue.js"
               />
             </div>
             <div class="w-full carousel-item">
               <img
-                src="../assets/images/laravel.png"
+                src="~/assets/images/laravel.png"
                 class="block w-2/3 mx-auto rounded-lg"
                 alt="laravel"
               />

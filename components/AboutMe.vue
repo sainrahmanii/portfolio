@@ -12,7 +12,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/foto.png"
+            src="~/assets/images/foto.png"
             alt="husain rahmani"
             class="lg:max-w-full w-64 mx-auto lg:mx-3"
           />

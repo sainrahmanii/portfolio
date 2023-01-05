@@ -13,7 +13,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/Bootcamp.png"
+            src="~/assets/images/Bootcamp.png"
             alt="bootcamp"
             class="border rounded-md"
           />
@@ -28,7 +28,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/zullkit.png"
+            src="~/assets/images/zullkit.png"
             alt="zullkit"
             class="border rounded-md"
           />
@@ -45,7 +45,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/marketplace.png"
+            src="~/assets/images/marketplace.png"
             alt="zullkit"
             class="border rounded-md"
           />
@@ -60,7 +60,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/powerhuman.png"
+            src="~/assets/images/powerhuman.png"
             alt="powerhuman"
             class="border rounded-md"
           />
@@ -75,7 +75,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/carent.png"
+            src="~/assets/images/carent.png"
             alt="carent"
             class="border rounded-md"
           />
@@ -92,7 +92,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/Rental.png"
+            src="~/assets/images/Rental.png"
             alt="rental"
             class="border rounded-md"
           />
@@ -107,7 +107,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/Portfolio.png"
+            src="~/assets/images/Portfolio.png"
             alt="portfolio.v1"
             class="border rounded-md"
           />
@@ -122,7 +122,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/portfoliov2.png"
+            src="~/assets/images/portfoliov2.png"
             alt="portfolio.v2"
             class="border rounded-md"
           />
@@ -137,7 +137,7 @@
           data-aos-once="false"
         >
           <img
-            src="../assets/images/Jersey.png"
+            src="~/assets/images/Jersey.png"
             alt="jersey"
             class="border rounded-md"
           />
