@@ -45,7 +45,7 @@
           data-aos-once="false"
         >
           <img
-            src="~/assets/images/marketplace.png"
+            src="~/assets/images/Marketplace.png"
             alt="zullkit"
             class="border rounded-md"
           />

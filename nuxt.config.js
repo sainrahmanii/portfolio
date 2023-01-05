@@ -25,6 +25,12 @@ export default {
         href: 'https://unpkg.com/aos@next/dist/aos.css'
       }
     ],
+    script: [
+      {
+        body: true,
+        src: "./TW-ELEMENTS-PATH/dist/js/index.min.js"
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
