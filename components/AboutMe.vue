@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-36 md:pt-16" id="about">
+  <section class="py-16 md:py-16" id="about">
     <div class="container lg:px-36">
       <div class="flex flex-wrap items-center my-12">
         <div
@@ -20,7 +20,7 @@
         <div class="w-full items-center lg:w-1/2">
           <div class="rounded-lg shadow-xl">
             <div class="py-3">
-              <h1 class="text-center text-3xl font-bold">About Me</h1>
+              <h1 class="text-center text-3xl font-bold">ABOUT ME</h1>
               <div class="mt-2">
                 <div
                   class="px-3"
@@ -112,26 +112,27 @@
                           FUNDAMENTAL
                         </div>
                         <div
-                          class="flex items-center collapse mt-2"
+                          class="flex items-center collapse my-2"
                           id="fundamental"
                         >
                           <div class="flex items-center mr-5">
                             <img
-                              src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-tritone-tal-revivo.png"
-                              class="mr-2"
+                              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+                              class="mr-2 w-7"
                             />
                             <p>HTML5</p>
                           </div>
                           <div class="flex items-center mr-5">
                             <img
-                              src="https://img.icons8.com/fluency/32/null/css3.png"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/250px-CSS3_logo.svg.png"
+                              class="mr-2 w-7"
                             />
                             <p>CSS3</p>
                           </div>
                           <div class="flex items-center">
                             <img
-                              src="https://img.icons8.com/fluency/32/null/javascript.png"
-                              class="mr-2"
+                              src="https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png"
+                              class="w-14"
                             />
                             <p>JavaScript</p>
                           </div>
@@ -149,7 +150,7 @@
                           FRAMEWORK CSS
                         </h1>
                         <div
-                          class="flex items-center collapse mt-2 pl-11"
+                          class="flex items-center collapse my-2 pl-11"
                           id="frameworkcss"
                         >
                           <div class="flex items-center mr-5">
@@ -180,7 +181,7 @@
                           FRAMEWORK FRONTEND
                         </h1>
                         <div
-                          class="flex items-center collapse mt-2 pl-11"
+                          class="flex items-center collapse my-2 pl-11"
                           id="frameworkfrontend"
                         >
                           <div class="flex items-center mr-5">
@@ -211,7 +212,7 @@
                           FRAMEWORK BACKEND
                         </h1>
                         <div
-                          class="flex items-center collapse mt-2 pl-11"
+                          class="flex items-center collapse my-2 pl-11"
                           id="frameworkbackend"
                         >
                           <div class="flex items-center mr-5">
@@ -234,7 +235,7 @@
                         >
                           DATABASE
                         </h1>
-                        <div class="flex items-center collapse mt-2 pl-11" id="database">
+                        <div class="flex items-center collapse my-2 pl-11" id="database">
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png"
@@ -266,7 +267,7 @@
                           <div class="flex items-center mr-5">
                             <img
                               src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                              class="mr-2 w-10"
+                              class="mr-2 w-8"
                             />
                             <p>Github</p>
                           </div>
@@ -357,6 +358,7 @@
 
 <script setup>
 import AOS from 'aos'
+import 'tw-elements'
 
 AOS.init()
 </script>

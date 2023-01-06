@@ -5,6 +5,7 @@
     <AboutMe />
     <Portfolio />
     <Certificate />
+    <Client />
     <Footer />
   </div>
 </template>

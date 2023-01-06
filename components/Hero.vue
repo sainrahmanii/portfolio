@@ -12,7 +12,7 @@
             data-aos-once="false"
           >
             <h1 class="text-3xl font-medium lg:text-4xl">
-              Halo 👋,<span class="block mt-1 font-semibold"
+              Hello 👋,<span class="block mt-1 font-semibold"
                 >I Am Husain Rahmani</span
               >
             </h1>

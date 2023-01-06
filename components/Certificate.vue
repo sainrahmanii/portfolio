@@ -1,5 +1,5 @@
 <template>
-  <section id="certificate">
+  <section id="certificate" class="py-20 md:py-16">
     <div class="container lg:px-36">
       <div
         class="shadow-xl rounded-md p-7 lg:mb-32 mb-20"
@@ -10,7 +10,7 @@
         data-aos-mirror="false"
         data-aos-once="false"
       >
-        <h2 class="text-3xl font-bold text-center">Certificate</h2>
+        <h2 class="text-3xl font-bold text-center">CERTIFICATE</h2>
         <div
           id="carouselExampleIndicators"
           class="relative carousel slide mt-3"
@@ -44,3 +44,8 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import 'tw-elements'
+
+</script>

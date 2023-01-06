@@ -1,7 +1,7 @@
 <template>
   <section id="portfolio">
     <div class="container lg:my-32 my-20 lg:px-36">
-      <h2 class="text-3xl font-bold text-center">Portfolio</h2>
+      <h2 class="text-3xl font-bold text-center">PORTFOLIO</h2>
       <div class="grid grid-cols-1 gap-2 mt-12 lg:grid-cols-2">
         <div
           class="p-5 rounded-lg shadow-xl cursor-pointer"

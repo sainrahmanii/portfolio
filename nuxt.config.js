@@ -27,8 +27,8 @@ export default {
     ],
     script: [
       {
-        body: true,
-        src: "./TW-ELEMENTS-PATH/dist/js/index.min.js"
+        src: "./TW-ELEMENTS-PATH/dist/js/index.min.js",
+        body: true
       }
     ]
   },
