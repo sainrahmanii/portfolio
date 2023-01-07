@@ -6,6 +6,7 @@
     <Portfolio />
     <Certificate />
     <Client />
+    <Contact />
     <Footer />
   </div>
 </template>

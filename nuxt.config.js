@@ -30,7 +30,10 @@ export default {
         src: "./TW-ELEMENTS-PATH/dist/js/index.min.js",
         body: true
       }
-    ]
+    ],
+    htmlAttrs: {
+      class: 'scroll-smooth'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
