@@ -115,24 +115,21 @@
                           class="flex items-center collapse my-2"
                           id="fundamental"
                         >
-                          <div class="flex items-center mr-5">
+                          <div class="flex items-center mr-3">
                             <img
-                              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                              class="mr-2 w-7"
+                              src="https://img.icons8.com/color/30/null/html-5--v1.png"
                             />
                             <p>HTML5</p>
                           </div>
-                          <div class="flex items-center mr-5">
+                          <div class="flex items-center mr-3">
                             <img
-                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/250px-CSS3_logo.svg.png"
-                              class="mr-2 w-7"
+                              src="https://img.icons8.com/color/30/null/css3.png"
                             />
                             <p>CSS3</p>
                           </div>
                           <div class="flex items-center">
                             <img
-                              src="https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png"
-                              class="w-14"
+                              src="https://img.icons8.com/fluency/30/null/javascript.png"
                             />
                             <p>JavaScript</p>
                           </div>
@@ -235,7 +232,10 @@
                         >
                           DATABASE
                         </h1>
-                        <div class="flex items-center collapse my-2 pl-11" id="database">
+                        <div
+                          class="flex items-center collapse my-2 pl-11"
+                          id="database"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png"
@@ -256,7 +256,10 @@
                         >
                           VCS (Version Control System)
                         </h1>
-                        <div class="flex items-center collapse pl-11 mt-2" id="vcs">
+                        <div
+                          class="flex items-center collapse pl-11 mt-2"
+                          id="vcs"
+                        >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://avatars.githubusercontent.com/u/18133?s=200&v=4"
@@ -312,7 +315,10 @@
 
                     <h1 class="pl-5 text-xl font-semibold">Education</h1>
                   </div>
-                  <div class="flex font-medium collapse mt-2 pl-11" id="education">
+                  <div
+                    class="flex font-medium collapse mt-2 pl-11"
+                    id="education"
+                  >
                     <div class="text-justify">
                       <div class="">
                         <h1
