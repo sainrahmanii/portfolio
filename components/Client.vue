@@ -1,8 +1,8 @@
 <template>
   <section id="clients">
-    <div class="container lg:px-36 py-12 overflow-x-hidden ">
+    <div class="container lg:px-36">
       <h2 class="text-3xl font-bold text-center">CLIENT</h2>
-      <div class="mt-5">
+      <div class="mt-5 overflow-x-hidden py-12">
         <div class="image-infinite">
           <div class="flex">
             <a href="https://www.adobe.com/" target="_blank">
