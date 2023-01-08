@@ -2,7 +2,7 @@
   <section id="contact" class="bg-cyan-50">
     <div class="container lg:px-36 py-16">
       <h2 class="text-3xl font-bold text-center">CONTACT</h2>
-      <div class="mt-5 lg:flex gap-5 md:block">
+      <div class="mt-5 lg:flex gap-5 md:block overflow-x-hidden">
         <div
           class="flex items-center"
           data-aos="fade-left"
