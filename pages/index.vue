@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import src from 'daisyui'
 import 'tw-elements';
 
 export default {
