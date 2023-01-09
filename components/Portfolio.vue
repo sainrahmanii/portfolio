@@ -3,7 +3,8 @@
     <div class="container lg:my-32 my-20 lg:px-36">
       <h2 class="text-3xl font-bold text-center">PORTFOLIO</h2>
       <div class="grid grid-cols-1 gap-2 mt-12 lg:grid-cols-2">
-        <div
+        <NuxtLink to="/portfolio/laracamp">
+          <div
           class="p-5 rounded-lg shadow-xl cursor-pointer"
           data-aos="fade-up"
           data-aos-delay="50"
@@ -18,7 +19,9 @@
             class="border rounded-md"
           />
         </div>
-        <div
+        </NuxtLink>
+        <NuxtLink to="/portfolio/zullkit">
+          <div
           class="p-5 rounded-lg shadow-xl cursor-pointer"
           data-aos="fade-up"
           data-aos-delay="50"
@@ -33,6 +36,7 @@
             class="border rounded-md"
           />
         </div>
+        </NuxtLink>
       </div>
       <div class="grid grid-cols-1 gap-2 lg:grid-cols-3">
         <div
