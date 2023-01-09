@@ -35,7 +35,10 @@ export default {
       class: 'scroll-smooth'
     },
     bodyAttrs: {
-      class: 'scrollbar scrollbar-thumb-cyan-400 scrollbar-track-cyan-200 scrollbar-thumb-rounded-full scrollbar-w-2'
+      class: 'scrollbar scrollbar-thumb-cyan-400 scrollbar-track-cyan-200 scrollbar-thumb-rounded-full scrollbar-w-2',
+      oncontextmenu: 'return false',
+      onkeydown: 'return false',
+      onmousedown: 'return false'
     }
   },
 
