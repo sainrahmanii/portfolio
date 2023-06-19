@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Portofolio Husain Rahmani, Husain Rahmani saat ini sebagai Web Developer Enthusiast' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [

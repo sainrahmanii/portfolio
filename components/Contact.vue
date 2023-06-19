@@ -1,8 +1,8 @@
 <template>
   <section id="contact" class="bg-cyan-50">
-    <div class="container lg:px-36 py-16">
+    <div class="container py-16 lg:px-36">
       <h2 class="text-3xl font-bold text-center">CONTACT</h2>
-      <div class="mt-5 lg:flex gap-5 md:block overflow-x-hidden">
+      <div class="gap-5 mt-5 overflow-x-hidden lg:flex md:block">
         <div
           class="flex items-center"
           data-aos="fade-left"
@@ -13,9 +13,9 @@
           data-aos-once="false"
         >
           <img src="https://img.icons8.com/fluency/30/null/instagram-new.png" />
-          <a href="https://www.instagram.com/husain.rahmani12/"
-            ><h2 class="hover:underline lg:text-xl text-md font-medium ml-1">
-              husain.rahmani12
+          <a href="https://www.instagram.com/sainrahmanii12/"
+            ><h2 class="ml-1 font-medium hover:underline lg:text-xl text-md">
+              sainrahmanii12
             </h2></a
           >
         </div>
@@ -31,7 +31,7 @@
           <img src="https://img.icons8.com/color/30/null/whatsapp--v1.png" />
           <a
             href="https://wa.me/085213221817?text=Hi,%20Husain%20Rahmani%0ASaya%20ingin%20membuat%20website"
-            ><h2 class="hover:underline lg:text-xl text-md font-medium ml-1">
+            ><h2 class="ml-1 font-medium hover:underline lg:text-xl text-md">
               085213221817
             </h2></a
           >
@@ -47,7 +47,7 @@
         >
           <img src="https://img.icons8.com/color/30/null/gmail-new.png" />
           <a href="mailto:husainrahmani127@gmail.com"
-            ><h2 class="hover:underline lg:text-xl text-md font-medium ml-1">
+            ><h2 class="ml-1 font-medium hover:underline lg:text-xl text-md">
               husainrahmani127@gmail.com
             </h2></a
           >
@@ -63,7 +63,7 @@
         >
           <img src="https://img.icons8.com/glyph-neue/30/null/github.png" />
           <a href="https://github.com/sainrahmanii"
-            ><h2 class="hover:underline lg:text-xl text-md font-medium ml-1">
+            ><h2 class="ml-1 font-medium hover:underline lg:text-xl text-md">
               sainrahmanii
             </h2></a
           >

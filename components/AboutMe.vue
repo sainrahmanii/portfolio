@@ -3,7 +3,7 @@
     <div class="container lg:px-36">
       <div class="flex flex-wrap items-center my-12">
         <div
-          class="w-full items-center lg:w-1/2"
+          class="items-center w-full lg:w-1/2"
           data-aos="fade-up"
           data-aos-delay="50"
           data-aos-duration="1000"
@@ -14,13 +14,13 @@
           <img
             src="~/assets/images/foto.png"
             alt="husain rahmani"
-            class="lg:max-w-full w-64 mx-auto lg:mx-3"
+            class="w-64 mx-auto lg:max-w-full lg:mx-3"
           />
         </div>
-        <div class="w-full items-center lg:w-1/2">
+        <div class="items-center w-full lg:w-1/2">
           <div class="rounded-lg shadow-xl">
             <div class="py-3">
-              <h1 class="text-center text-3xl font-bold">ABOUT ME</h1>
+              <h1 class="text-3xl font-bold text-center">ABOUT ME</h1>
               <div class="mt-2">
                 <div
                   class="px-3"
@@ -53,7 +53,7 @@
                     <h1 class="pl-5 text-xl font-semibold">Experience</h1>
                   </div>
                   <div
-                    class="collapse font-medium transition duration-150 ease-in-out"
+                    class="font-medium transition duration-150 ease-in-out collapse"
                     id="collapseExample"
                   >
                     <p class="text-justify pl-11">
@@ -108,11 +108,11 @@
                         aria-expanded="false"
                         aria-controls="collapseExample"
                       >
-                        <div class="font-semibold flex items-center">
+                        <div class="flex items-center font-semibold">
                           FUNDAMENTAL
                         </div>
                         <div
-                          class="flex items-center collapse my-2"
+                          class="flex items-center my-2 collapse"
                           id="fundamental"
                         >
                           <div class="flex items-center mr-3">
@@ -147,7 +147,7 @@
                           FRAMEWORK CSS
                         </h1>
                         <div
-                          class="flex items-center collapse my-2 pl-11"
+                          class="flex items-center my-2 collapse pl-11"
                           id="frameworkcss"
                         >
                           <div class="flex items-center mr-5">
@@ -178,13 +178,13 @@
                           FRAMEWORK FRONTEND
                         </h1>
                         <div
-                          class="flex items-center collapse my-2 pl-11"
+                          class="flex items-center my-2 collapse pl-11"
                           id="frameworkfrontend"
                         >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://docs.vuejs.id/images/logo.png"
-                              class="mr-2 w-6"
+                              class="w-6 mr-2"
                             />
                             <p>Vue.Js</p>
                           </div>
@@ -209,13 +209,13 @@
                           FRAMEWORK BACKEND
                         </h1>
                         <div
-                          class="flex items-center collapse my-2 pl-11"
+                          class="flex items-center my-2 collapse pl-11"
                           id="frameworkbackend"
                         >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
-                              class="mr-2 w-6"
+                              class="w-6 mr-2"
                             />
                             <p>Laravel</p>
                           </div>
@@ -233,13 +233,13 @@
                           DATABASE
                         </h1>
                         <div
-                          class="flex items-center collapse my-2 pl-11"
+                          class="flex items-center my-2 collapse pl-11"
                           id="database"
                         >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png"
-                              class="mr-2 w-10"
+                              class="w-10 mr-2"
                             />
                             <p>MySQL</p>
                           </div>
@@ -257,20 +257,20 @@
                           VCS (Version Control System)
                         </h1>
                         <div
-                          class="flex items-center collapse pl-11 mt-2"
+                          class="flex items-center mt-2 collapse pl-11"
                           id="vcs"
                         >
                           <div class="flex items-center mr-5">
                             <img
                               src="https://avatars.githubusercontent.com/u/18133?s=200&v=4"
-                              class="mr-2 w-8"
+                              class="w-8 mr-2"
                             />
                             <p>Git</p>
                           </div>
                           <div class="flex items-center mr-5">
                             <img
                               src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                              class="mr-2 w-8"
+                              class="w-8 mr-2"
                             />
                             <p>Github</p>
                           </div>
@@ -316,7 +316,7 @@
                     <h1 class="pl-5 text-xl font-semibold">Education</h1>
                   </div>
                   <div
-                    class="flex font-medium collapse mt-2 pl-11"
+                    class="flex mt-2 font-medium collapse pl-11"
                     id="education"
                   >
                     <div class="text-justify">
@@ -332,7 +332,7 @@
                           STIKOM CKI JAKARTA ● 2021 - Present
                         </h1>
                         <div class="flex items-center collapse" id="stikom">
-                          <p>Semester 3</p>
+                          <p>Semester 5</p>
                         </div>
                       </div>
                       <div class="">
